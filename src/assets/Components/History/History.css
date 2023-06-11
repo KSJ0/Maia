@@ -1,0 +1,34 @@
+.history {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: -5%;
+}
+
+.history-img img {
+    height: auto;
+    width: 100%;
+}
+
+.history-text strong {
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.history-text h2 {
+    font-size: var(--h2-font);
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 30px 0;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+.history-text p {
+    max-width: 450px;
+    font-size: var(--p-font);
+    line-height: 32px;
+    color: var(--other-color);
+    margin-bottom: 2rem;
+}

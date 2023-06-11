@@ -1,32 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans Regular', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
-}
-
-:root {
-    --main-color: #c78b85;
-    --text-color: #473229;
-    --bg-color: #fffefb;
-    --rr-color: #ffa50a;
-    --other-color: #95949a;
-    --bb-color: #fff2de;
-
-    --big-font: 4.4rem;
-    --h2-font: 3rem;
-    --h4-font: 1.4rem;
-    --p-font: 1rem;
-}
-
-body {
-    background: var(--bg-color);
-    color: var(--text-color);
-}
-
 .Navbar {
     position: fixed;
     top: 0;
@@ -38,7 +9,7 @@ body {
     justify-content: space-between;
     background: var(--bg-color);
     box-shadow: 0 0.4rem 30rem rgba(0, 0, 0, 0.1);
-    padding: 15px 14%;
+    padding: 10px 14%;
     transition: all ease .52s;
 }
 
