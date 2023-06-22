@@ -1,5 +1,5 @@
-import React from 'react'
-import './Contactus.css'
+import React from 'react';
+import './Contactus.css';
 
 const Contactus = () => {
   return (
@@ -78,6 +78,7 @@ const Contactus = () => {
         </div> */}
         </section>
     </div>
+    
   )
 }
 

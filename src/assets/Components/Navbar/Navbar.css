@@ -68,7 +68,7 @@
     justify-content: center;
 }
 
-.header-icons i {
+.header-icons .i {
     vertical-align: middle;
     font-size: 1.5rem;
     color: var(--text-color);
@@ -76,7 +76,7 @@
     transition: all ease .50s;
 }
 
-.header-icons i:hover {
+.header-icons .i:hover {
     transform: scale(1.1) translateX(-5px);
     color: var(--main-color);
 }

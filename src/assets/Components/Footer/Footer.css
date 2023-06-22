@@ -11,7 +11,7 @@
     margin-bottom: 1.1rem;
 }
 
-.icons i {
+.icons .i {
     height: 35px;
     width: 35px;
     background: var(--main-color);
@@ -25,7 +25,7 @@
     transition: all ease .50s;
 }
 
-.icons i:hover {
+.icons .i:hover {
     transform: translateY(-5px);
     background: var(--bb-color);
     color: var(--text-color);

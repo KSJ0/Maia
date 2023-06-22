@@ -1,7 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Logo from '../../img/Main/BakeryLogo.png'
-import './Footer.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../../img/Main/BakeryLogo.png';
+import './Footer.css';
+// import { BiLogoFacebookSquare } from "react-icons/bi";
+// import { BiLogoInstagramAlt } from "react-icons/bi";
+// import { BiLogoTwitter } from "react-icons/bi";
+// import { BiLogoYoutube } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -14,10 +18,10 @@ const Footer = () => {
                 </Link>
 
                 <div className='icons'>
-                    <Link to='https://www.facebook.com/maiabakeryph'><i class='bx bxl-facebook'></i></Link>
-                    <Link to='https://instagram.com/maiabakeryph?igshid=YmMyMTA2M2Y='><i class='bx bxl-instagram-alt' ></i></Link>
-                    <Link to='#'><i className='bx bxl-twitter' ></i></Link>
-                    <Link to='#'><i className='bx bxl-youtube' ></i></Link>
+                    {/* <Link to='https://www.facebook.com/maiabakeryph'><BiLogoFacebookSquare/></Link> */}
+                    {/* <Link to='https://instagram.com/maiabakeryph?igshid=YmMyMTA2M2Y='><BiLogoInstagramAlt className='i'/></Link> */}
+                    {/* <Link to='#'><BiLogoTwitter className='i'/></Link> */}
+                    {/* <Link to='#'><BiLogoYoutube className='i'/></Link> */} 
                 </div>
             </div>
 
