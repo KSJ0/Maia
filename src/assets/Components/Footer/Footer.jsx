@@ -16,8 +16,8 @@ const Footer = () => {
                 <div className='icons'>
                     <Link to='https://www.facebook.com/maiabakeryph'><i class='bx bxl-facebook'></i></Link>
                     <Link to='https://instagram.com/maiabakeryph?igshid=YmMyMTA2M2Y='><i class='bx bxl-instagram-alt' ></i></Link>
-                    <Link to='#'><i class='bx bxl-twitter' ></i></Link>
-                    <Link to='#'><i class='bx bxl-youtube' ></i></Link>
+                    <Link to='#'><i className='bx bxl-twitter' ></i></Link>
+                    <Link to='#'><i className='bx bxl-youtube' ></i></Link>
                 </div>
             </div>
 

@@ -1,6 +1,6 @@
 .contact {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
     gap: 1rem;
 }
 
